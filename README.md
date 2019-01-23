@@ -1,1 +1,1 @@
-# aboutme student
+# aboutme friend
