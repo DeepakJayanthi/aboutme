@@ -25,6 +25,6 @@ I use this page to practise markdown scrpting, and to push my code to Github and
 
 My name is Deepak Jayanthi. I am a graduate student in Applied Computer Sciences.
 
-![Hosted image]()
+![Hosted image](https://res.cloudinary.com/dqtgs03ux/image/upload/v1464338821/ro7xu48ndtmwxolycmcm.png )
 
 
