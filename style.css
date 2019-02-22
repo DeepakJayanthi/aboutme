@@ -2,7 +2,9 @@ h1{
    
     color:blue;
 }
-
+b{
+    color: wheat;
+}
 body{
     background-image: url("10942.jpg");
     -webkit-background-size: cover;
