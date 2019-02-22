@@ -28,10 +28,10 @@ function PrimeOrNot(value){
 }
 
 QUnit.test("PrimeOrNot", function(assert) {
-    assert.ok(PrimeOrNot(3), true, "The addition of two numbers of 30-30 is 60");
-    assert.ok(PrimeOrNot(5), true, "The addition of two numbers of 20-20 is 40");
-    assert.ok(PrimeOrNot(7), true, "The addition of two numbers of 10-10 is 20");
-    assert.notOk(PrimeOrNot(20), false, "The addition of two numbers of 5-5 is 10");
-    assert.notOk(PrimeOrNot(30), false, "The addition of two numbers of 35-35 is 70");
+    assert.ok(PrimeOrNot(3), true, "Given number is Prime");
+    assert.ok(PrimeOrNot(5), true, "Given number is Prime");
+    assert.ok(PrimeOrNot(7), true, "Given number is Prime");
+    assert.ok(PrimeOrNot(11), true, "Given number is  Prime");
+    assert.ok(PrimeOrNot(97), true, "Given number is  Prime");
     
  });

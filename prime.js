@@ -13,9 +13,8 @@ function Prime()
         {
             
             number = Number(document.getElementById("N").value);
-
-            const isPrime=PrimeOrNot(number);
-            if(isPrime)
+			localStorage.setItem("isPrime", PrimeOrNot(number));
+            if(localStorage.getItem("isPrime"))
             {
                // window.alert(number+"-The inputed number is Prime");
                 document.getElementById("result").innerHTML = "Given number is Prime";
