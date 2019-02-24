@@ -1,4 +1,8 @@
-
+$(document).ready(function () {
+    $("#myBtn").mouseleave(function () {
+        $("#demo").hide();
+    });
+});
 window.onload = function (e) {
     document.getElementById("myBtn").addEventListener("click", function () {
         Prime();
@@ -58,8 +62,4 @@ function loadDoc() {
     xhttp.open("GET", "prime.txt", true);
     xhttp.send();
 }
-$(document).ready(function () {
-    $("#myBtn").mouseleave(function () {
-        $("#demo").hide();
-    });
-}); 
+ 
