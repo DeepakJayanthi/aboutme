@@ -1,1 +1,1 @@
-Welcome to on the button to check whether a number is prime or not.
+Click on the button to check whether a number is prime or not.
